@@ -93,8 +93,6 @@ class ExecutandoChrome:
     def processar_ce_mercante(self, df, ce_mercante, local_termos_pdf):
         referencia_despachante = df.loc[df['Numero CE'] ==
                                   ce_mercante, 'Sua Referencia'].iloc[0]
-        importador = df.loc[df['Numero CE'] ==
-                            ce_mercante, 'Importador'].iloc[0]
         NOME_DO_ARQUIVO = f"{referencia_despachante}_TermoMarinhaMercante.pdf".upper()
 
         PASTA_TERMOS_MARINHA = local_termos_pdf
