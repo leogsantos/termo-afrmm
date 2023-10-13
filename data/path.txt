@@ -1,0 +1,4 @@
+login_mercante = insira o login de acesso a marinha mercante aqui
+senha_mercante = insira a senha de acesso a marinha mercante aqui
+url_da_marinha = https://www.mercante.transportes.gov.br/g33159MT/jsp/logon.jsp
+pasta_termos_pdf = pasta onde serão salvos os termos da marinha
