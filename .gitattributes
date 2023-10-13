@@ -1,1 +1,2 @@
-*.py   linguagem=python
+* linguist-vendored
+*.h linguist-vendored=false
